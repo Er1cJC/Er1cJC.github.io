@@ -1,48 +1,38 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "LatentEcho",
-  description: "EricJC的个人技术博客 - AI音频算法与系统工程实践",
-  
+  title: "EricJC的空间", // 替换成你想要的名字
+  description: "Tech, AI Audio & System Engineering",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI 音频研究', link: '/audio-ai/', activeMatch: '/audio-ai/' },
-      { text: '系统工程', link: '/engineering/', activeMatch: '/engineering/' },
-      { text: '关于', link: '/about' }
+      { text: 'AI与音频', link: '/audio-ai/' },
+      { text: '软件工程', link: '/engineering/' },
+      { text: '关于我', link: '/about' },
+      { text: 'Examples', link: '/markdown-examples' }
     ],
-
     sidebar: {
-      '/audio-ai/': [
-        {
-          text: 'AI 与音频研究',
-          items: [
-            { text: '概览', link: '/audio-ai/' },
-            { text: 'RVC 模型过拟合调优实战', link: '/audio-ai/rvc-tuning' },
-            { text: '专业音频流处理与分离', link: '/audio-ai/audio-processing' }
-          ]
-        }
-      ],
       '/engineering/': [
         {
           text: '系统工程实践',
           items: [
-            { text: '概览', link: '/engineering/' },
             { text: '高并发网络锁控系统架构', link: '/engineering/smart-lock' },
             { text: '多端环境与底层系统调优', link: '/engineering/system-tuning' }
           ]
         }
+      ],
+      '/audio-ai/': [
+        {
+          text: '算法与体验',
+          items: [
+            { text: 'RVC模型过拟合调优实战', link: '/audio-ai/rvc-tuning' },
+            { text: '专业音频流处理与分离', link: '/audio-ai/audio-processing' }
+          ]
+        }
       ]
     },
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Er1cJC/Er1cJC.github.io' }
-    ],
-
-    footer: {
-      message: 'Released under the ISC License.',
-      copyright: 'Copyright © 2024 EricJC'
-    }
+      { icon: 'github', link: 'https://github.com/Er1cJC' }
+    ]
   }
 })

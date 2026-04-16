@@ -1,7 +1,7 @@
 {
-  "name": "latentecho",
+  "name": "er1cjc.github.io",
   "version": "1.0.0",
-  "description": "EricJC's personal tech blog - AI audio processing & system engineering",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,18 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "keywords": ["AI audio", "RVC", "voice conversion", "system engineering", "tech blog"],
-  "author": "EricJC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Er1cJC/Er1cJC.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Er1cJC/Er1cJC.github.io/issues"
+  },
+  "homepage": "https://github.com/Er1cJC/Er1cJC.github.io#readme",
   "devDependencies": {
     "vitepress": "^1.6.4"
   }

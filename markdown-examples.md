@@ -1,11 +1,11 @@
 # Markdown Extension Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+我要把这个测试页面变成图库
 
 ## Syntax Highlighting
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
-
+11111
+![秘封厨](/image/mfc.jpeg)
 **Input**
 
 ````md

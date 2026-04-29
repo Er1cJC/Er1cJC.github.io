@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "EricJC的空间", // 替换成你想要的名字
+  title: "EricJC的空间", // 替换成想要的名字
   description: "Tech, AI Audio & System Engineering",
   themeConfig: {
     nav: [
@@ -9,7 +9,7 @@ export default defineConfig({
       { text: 'AI与音频', link: '/audio-ai/' },
       { text: '软件工程', link: '/engineering/' },
       { text: '关于我', link: '/about' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '好康的', link: '/markdown-examples' }
     ],
     sidebar: {
       '/engineering/': [

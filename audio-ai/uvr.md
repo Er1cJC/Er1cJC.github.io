@@ -10,7 +10,8 @@ Github：https://github.com/leebufan/Ultimate-Vocal-Remover
 ## 我的一些见解
 
 新手使用建议从VR Architecture模型用起。其中：
-    1_HP_UVR是老模型，不建议使用
-    **3_HP-Vocal-UVR是人声分离模型，最常用**
+    1_HP_UVR是老模型，不建议使用  
+    **3_HP-Vocal-UVR是人声分离模型，最常用**  
     **5_HP-Karaoke-UVR是和声分离模型，需要把主唱声从和声分离出来就用这个。需要和声同理。**
 
+1

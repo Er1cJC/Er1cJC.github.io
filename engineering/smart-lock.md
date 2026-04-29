@@ -2,15 +2,15 @@
 
 ## 项目概览
 
-基于 Flask + PyQt 的企业级高并发网络锁控系统，在复杂的分布式环境中实现稳定的访问控制和实时状态同步。
+基于 Flask + PyQt 的企业级Web项目，通过人脸识别验证，开启分布式机柜锁
 
 ## 核心技术栈
 
 - **后端框架**: Flask + Gunicorn + Nginx
-- **前端**: PyQt5 / PyQt6 跨平台 GUI
+- **前端**: PyQt5 / 跨平台 GUI
 - **通信协议**: WebSocket + TCP 双通道
 - **数据库**: PostgreSQL + Redis 缓存
-- **部署**: Docker 容器化 + Kubernetes 编排
+- **部署**: Kirin V10 + miniconda
 
 ## 系统架构
 
@@ -23,7 +23,7 @@
 └──────────────┬──────────────────────────┘
                │ WebSocket / TCP
 ┌──────────────▼──────────────────────────┐
-│     Gateway Layer (Nginx + LB)          │
+│     Gateway Layer (Nginx)          │
 │  - 负载均衡  - SSL/TLS - 流量控制      │
 └──────────────┬──────────────────────────┘
                │

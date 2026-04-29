@@ -1,24 +1,25 @@
 # 关于我
 
-## 你好 👋
+## 我喜欢你
 
-我是 **EricJC**，一位对技术充满热情的工程师，致力于在 **AI 音频处理** 和 **系统工程** 的交叉领域探索创新。
+我是 **EricJC**，别名**千早太空鸡**。大三在读，软件工程师，参加过多个Web项目，有过一段IT公司实习经历。同时还是一个小小的B站UP主和网易云音乐人，全网粉丝10000+，喜欢制作**音MAD**和**AI翻唱**，同时作为一个专业混音师，跟很多UP主有过相当多的合作，全网播放1000万+
 
 ## 核心兴趣
 
-### 🎵 AI 音频处理
-- RVC 歌声转换模型调优
-- 实时音声分离与降噪
+### 音频处理
+- 原创歌曲，编曲，混音
+- sovits翻唱
+- UVR音声分离与降噪
 - 专业音频工作流设计
 - 语音合成与变声技术
 
-### 🛠️ 企业级系统工程
+### 软件工程
 - 高并发网络系统架构设计
 - 分布式系统一致性保证
 - 多端跨平台性能优化
 - 大规模系统可靠性工程
 
-### 🎨 用户体验设计
+### 用户体验设计
 - Python GUI 应用设计 (PyQt)
 - 前后端通信架构
 - 实时数据可视化
@@ -26,24 +27,24 @@
 
 ## 技术栈
 
-**编程语言**: Python | C++ | JavaScript | SQL
+**熟悉的编程语言**: Python | C++ | JavaScript | SQL
 
-**框架工具**:
-- 后端: Flask, FastAPI, Django
+**用过的框架工具**:
+- 后端: Flask, FastAPI
 - 前端: PyQt5/6, React, Vue
-- 数据处理: NumPy, Pandas, Scikit-learn
+- 数据处理: NumPy, Pandas
 - 深度学习: PyTorch, TensorFlow
 - 音频处理: Librosa, SoundFile, PyAudio
 
-**DevOps**: Docker, Kubernetes, GitHub Actions, Nginx
+**DevOps**: Docker, GitHub Actions, Nginx
 
 ## 代表项目
 
 ### 🔒 高并发网络锁控系统
 基于 Flask + PyQt 的企业级控制系统
-- 支持 10K+ 并发连接
-- 99.95% 系统可用性
-- 实时状态同步 < 50ms
+- 
+- 
+- 快速实时状态同步
 
 [查看详情 →](/engineering/smart-lock)
 

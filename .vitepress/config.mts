@@ -16,7 +16,7 @@ export default defineConfig({
         {
           text: '系统工程实践',
           items: [
-            { text: '高并发网络锁控系统架构', link: '/engineering/smart-lock' },
+            { text: '人脸识别机柜锁项目', link: '/engineering/smart-lock' },
             { text: '多端环境与底层系统调优', link: '/engineering/system-tuning' }
           ]
         }
@@ -25,8 +25,9 @@ export default defineConfig({
         {
           text: '算法与体验',
           items: [
-            { text: 'RVC模型过拟合调优实战', link: '/audio-ai/rvc-tuning' },
-            { text: '专业音频流处理与分离', link: '/audio-ai/audio-processing' }
+            { text: 'UVR 音声分离', link: '/audio-ai/uvr' },
+            { text: 'RVC 模型调优', link: '/audio-ai/rvc-tuning' },
+            { text: '音频流', link: '/audio-ai/audio-processing' }
           ]
         }
       ]

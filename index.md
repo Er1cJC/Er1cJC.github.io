@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: AI音频研究
-      link: /audio-ai/rvc-tuning
+      link: /audio-ai/index
     - theme: alt
       text: 深入工程架构
-      link: /engineering/smart-lock
+      link: /engineering/index
 
 features:
   - icon: 🎵

@@ -18,14 +18,8 @@ hero:
       link: /engineering/index
 
 features:
-  - icon: 🎵
-    title: AI 音频算法
-    details: 深度调教 RVC/SoVITS 模型，探索声音的无限可能
-  - icon: 🛠️
-    title: 企业工程实践
-    details: 基于 Flask + PyQt 的高并发锁控系统，追求极致的系统稳定与逻辑闭环
-  - icon: 🎨
-    title: 用户体验设计
-    details: 让复杂的后端能力通过优雅的 UI 直达用户
+  - icon: 
+    title: 
+    details: 
 ---
 

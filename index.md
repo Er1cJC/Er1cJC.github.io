@@ -16,10 +16,5 @@ hero:
     - theme: alt
       text: 深入工程架构
       link: /engineering/index
-
-features:
-  - icon: 
-    title: 
-    details: 
 ---
 
